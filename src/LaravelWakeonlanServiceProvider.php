@@ -2,9 +2,9 @@
 
 namespace Nerdmonkey\LaravelWakeonlan;
 
+use Nerdmonkey\LaravelWakeonlan\Commands\LaravelWakeonlanCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Nerdmonkey\LaravelWakeonlan\Commands\LaravelWakeonlanCommand;
 
 class LaravelWakeonlanServiceProvider extends PackageServiceProvider
 {
